@@ -1,0 +1,58 @@
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 200px;
+    height: 320px;
+    padding: 30px;
+    margin: 40px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    box-shadow: 2px 0px 8px 2px black;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.fruit {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.heading {
+    text-align: center;
+    color: rgb(226, 30, 30);
+}
+
+.fruits-info {
+    text-align: justify;
+    font-size: large;
+    font-weight: 300;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn {
+    padding: 6px;
+    background-color: rgb(47, 191, 40);
+    border: none;
+    border-radius: 2px;
+    width: 90px;
+}
+
+.btn:hover {
+    background-color: rgb(21, 82, 27);
+    color: bisque;
+    cursor: pointer;
+}
+
